@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start":"node .",
-    "test":"node test"
+    "test":"mkdir pastanova"
   },
   "dependencies": {
     "cors": "^2.8.5",
