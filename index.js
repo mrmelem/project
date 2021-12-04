@@ -7,6 +7,10 @@ app.get('/', (req,res)=>{
     return res.send("Olá mundo")
 })
 
+app.post('/', (req,res)=>{
+    return res.send("Olá mundo")
+})
+
 app.listen(PORT, ()=>{
     console.log("Servidor online")
 })
